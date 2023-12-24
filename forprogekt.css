@@ -1,0 +1,213 @@
+
+header{
+    height: 12vh;
+    grid-area: my-header;
+}
+main{
+    grid-area: my-main;
+    background-color: rgb(207, 207, 207);
+}
+footer{
+    grid-area: my-footer;
+}
+
+.proj{
+    width: 100%;
+    height: 400vh;
+    background-color: rgb(207, 207, 207);
+    display: grid;
+    grid-template-areas: 
+    "my-header"
+    "my-main"
+    "my-footer";
+grid-template-rows: 1.5fr 15fr 2fr;
+}
+.ght{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.cart{
+    height: 45vh;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.ghjw{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 3%;
+}
+.jnpsds{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(207, 207, 207);
+    border-top: solid 1px grey;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr 1fr;
+}
+.zapic{
+
+    line-height: 65%;
+    position: relative;
+    top: -15px;
+    left: 50px;
+}
+li ul{
+    display: none;
+}
+li:hover ul {
+    display: block;
+    cursor: pointer;
+}
+.textzap{
+    font-size: 15px;
+    list-style-type: none;
+    font-style: oblique;
+}
+.kjh{
+    list-style-type: none;
+}
+.ploik{
+    text-decoration: underline;
+    margin-top: 1%;
+}
+.ploik p:hover{
+    cursor: pointer;
+    color: rgb(143, 100, 224);
+}
+.input{
+    width: 600px;
+    height: 40px;
+    margin-top: 1%;
+    margin-right: 10px;
+}
+.ghfqc{
+    text-decoration: underline; 
+    margin-top: 1%;
+} 
+.ghfqc:hover{
+    cursor: pointer;
+    color: rgb(143, 100, 224);
+}
+.car{
+    width: 60%;
+    height: 72vh;
+    margin-left: 20%;
+    top: 50px;
+    margin-bottom: 8%;
+    
+}
+.man{
+    width: 80%;
+    height: 72vh;
+    margin-left: 10%;
+}
+.pfu{
+    text-align: center; 
+}
+.rte{
+    margin-bottom: 3%;
+}
+.joj{
+    text-align: center;
+}
+.jty{
+    margin-right: 7%;
+}
+.frog{
+    color: rgb(167, 164, 164);
+}
+.frog:hover{
+  box-shadow: 1% 1% 1% 1%;
+} 
+
+.jnp{
+    background-color:rgb(245, 245, 245) ;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;  
+    border-radius: 10px;
+}
+
+.logo{
+    width: 10%;
+}
+.ghtv{
+    background-color: rgb(245, 245, 245);
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.dbls{
+    margin-top: 100px;
+}
+.frt{
+    background-color: rgb(245, 245, 245) ;
+    border-radius: 700px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.frt:hover{
+    box-shadow: 0px 0px 0px 2px rgb(119, 118, 118);
+}
+.gjckt{
+    margin-right: 25px;
+}
+.kjhg{
+    margin-top: 150px;
+}
+.fds{
+    margin-top: 70px;
+}
+.wears{
+    text-align: center;
+}
+.rfhnbyrf8{
+    width: 20%;
+    align-self: flex-end;
+}
+.tablee{
+    width: 80%;
+    border: solid 1px grey;
+    margin-left: 10%;
+    background-color: rgb(245, 245, 245);
+}
+
+.ghfqcb{
+    text-align: center;
+}
+.wtys{
+    text-align: center;
+}
+.time_slot{
+    display: none;
+    width: 20%;
+    height: 10vh;
+    margin-top: 15px;
+}
+#time{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+}
+.text_slot{
+    display: none;
+    width: 50%;
+    height: 10vh;
+}
